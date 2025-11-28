@@ -101,10 +101,6 @@ main {
 
   /* 스크롤바 숨기기 */
   scrollbar-width: none; /* Firefox */
-
-  /* 부드러운 섹션 스냅 */
-  scroll-snap-type: y proximity;
-  scroll-padding-top: var(--nav-height);
 }
 
 main::-webkit-scrollbar {
